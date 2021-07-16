@@ -25,14 +25,3 @@ li a {
 li a:hover {
   background-color: #111;
 }
-
-.float-container {
-  border: 3px solid #fff;
-  padding: 1px;
-}
-
-.float-child {
-  width: 32%;
-  float: left;
-  padding: 10px;
-}  

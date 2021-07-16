@@ -1,6 +1,19 @@
 import React from 'react';
 import './App.css';
-import AceEditor from "react-ace";
+
+class Home extends React.Component {
+    
+    render() {
+        return (
+            <div className="App">
+                <h1>Welcome</h1>
+            </div>
+        );
+    }
+}
+
+export default Home;
+/* import AceEditor from "react-ace";
 
 import "ace-builds/src-noconflict/mode-html";
 import "ace-builds/src-noconflict/mode-css";
@@ -91,4 +104,4 @@ class Home extends React.Component {
     } 
 }
 
-export default Home;
+export default Home; */
