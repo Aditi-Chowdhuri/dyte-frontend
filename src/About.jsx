@@ -1,23 +1,19 @@
+import './App.css';
 import React from 'react';
-
-const divStyle = {
-    color:'white'
-};
 
 class About extends React.Component {
     
     render() {
         return (
-            <div style={divStyle}>
+            <div className="App">
                 <h2>About Page</h2>
                 <main>
-                    <p>This section contains information about...</p>
+                    <p>Aditi Nirapada Chowdhuri</p>
+                    <p>18BCE2138</p>
                 </main>
             </div>
-        )
+        );
     }
 }
-
-
 
 export default About;
